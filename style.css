@@ -12,6 +12,12 @@ h1 {
 
 }
 
+h2 {
+
+    font-size: 40px;
+
+}
+
 .orange-color {
 
     color: orange;
@@ -19,7 +25,7 @@ h1 {
 
 }
 
-section {
+.flexiable-container {
     display: flex;
     margin-bottom: 05%;
 
@@ -73,5 +79,46 @@ section {
 
 
 
+
+}
+
+.shadow {
+
+    box-shadow: 10px 10px 15px rgb(85, 105, 111);
+    width: 30;
+    margin-left: 05%;
+    margin-right: 05%;
+    padding-left: 07%;
+    border-radius: 10px;
+
+
+}
+
+.experience-area {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+
+}
+
+#fullstack-developer {
+
+    border-left: 7px solid orange;
+
+}
+
+#baby-developer {
+
+    border-left: 7px solid blue;
+
+}
+
+
+footer p {
+
+    text-align: center;
 
 }
